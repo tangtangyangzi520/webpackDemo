@@ -1,0 +1,7 @@
+/**
+ * @description: js新特性只被最新版本的浏览器支持,低版本浏览器下就需要一个转换工具，把es6代码转换成浏览器能识别的代码，babel就是这样的一个工具。可以理解为 babel是javascript语法的编译器。
+ *  在Babel执行编译的过程中，会从项目的根目录下的 .babelrc文件中读取配置
+ */
+{
+    "presets": ["@babel/preset-env"]
+}
